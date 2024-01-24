@@ -65,9 +65,19 @@ Highlight the key features of the project
 
 Steps to install and run this project locally
 
-    -   Step 1
-        -   Step 1.1
-    -   Step 2
+-   Step 1 clone project in terminal paste:
+    ```bash
+    git clone https://github.com/yourusername/project.git
+    ```
+-   Step 2 setup configuration
+
+    ```json
+    {
+    	"ConnectionStrings": {
+    		"DefaultConnection": "Your connection string"
+    	}
+    }
+    ```
 
 ## Project walkthrough [🔼](#table-of-contents)
 
@@ -84,10 +94,7 @@ We welcome suggestions for new features or improvements. Please open an issue to
 ### How to Contribute [🔼](#table-of-contents)
 
 1. Fork the repository to your GitHub account.
-2. Clone the forked repository to your local machine
-    ```bash
-    git clone https://github.com/yourusername/project.git
-    ```
+2. Checkout installation section
 3. Create a new branch for your contribution:
 
     ```bash
